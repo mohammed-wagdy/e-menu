@@ -1,0 +1,65 @@
+/* Website Font */ 
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+
+:root {
+    --main-color : #1aa6b7;
+    --white-color : #FFF;
+}
+
+/* Start Global */
+body {
+    font-family: 'Almarai', sans-serif !important;
+    height: 4000px;
+}
+/* End Global */
+
+
+
+/* Start Top Bar */
+.top_bar {
+    background-color: var(--white-color);
+    /* background-color: pink; */
+    padding: 15px;
+    color: var(--main-color);
+}
+.top_bar .login_btn {
+    text-align: left;
+}
+.top_bar .login_btn a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+/* End Top Bar */
+
+
+
+/* Start Header */
+header {
+    background-color: var(--main-color);
+}
+/* .custom-shape-divider-bottom-1608503441 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: red;
+} */
+header .navbar .nav-item .nav-link{
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+}
+header .custom-shape-divider-bottom-1608503441 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 0.3px);
+    height: 140px;
+}
+
+header .custom-shape-divider-bottom-1608503441 .shape-fill {
+    fill: #FFF;
+}
+/* End Header */
